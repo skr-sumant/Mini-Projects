@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Kablammo&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+body{
+    background-color: #fcc7ea;
+}
+
+.gif{
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+    align-items: center;  
+}
+
+.gif-2{
+    width: 10px;
+    height: 20px;
+    object-fit: contain;
+    margin: 20px auto;
+    display: block;
+    align-items: center;
+}
+.main-text{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.second-text{
+    text-align: center;
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+h2{
+font-family: cursive;
+}
+
+h4{
+    font-family: 'Arima', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; 
+}
+
+button{
+    background-color: #fcc7ea;
+    border: none;
+   
+   
+    
+}
+.btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+    transition: box-shadow 0.3s ease;
+
+}
+
+.btn1:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 20); 
+    transition: box-shadow 0.3s ease;
+}
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: Black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+    transition: box-shadow 0.3s ease;
+    
+}
+
+.btn2:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 20); 
+    transition: box-shadow 0.3s ease;
+
+}
+
+.author{
+    position:absolute;
+    color: blue;
+   bottom: 20px;
+   right: 20px;
+}
